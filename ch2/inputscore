@@ -1,0 +1,2 @@
+score = input("請輸入數學成績 :")
+print(score)

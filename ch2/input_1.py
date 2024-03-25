@@ -1,0 +1,5 @@
+chinese = input("請輸入國文成績 :")
+math = input("請輸入數學成績 :")
+english = input("請輸入英文成績 :")
+total = int(chinese)+int(math)+int(english)
+print("你的總分為 :"+ str(total))

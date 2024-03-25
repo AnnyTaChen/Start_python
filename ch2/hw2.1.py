@@ -1,0 +1,8 @@
+firstmenbername = str(input("輸入姓名"))
+firstmenbernumber = int(input("輸入成績:"))
+secondmenbername = str(input("輸入姓名"))
+secondmenbernumber = int(input("輸入成績:"))
+print("姓名 成績")
+print("%3s %3d"%(firstmenbername,firstmenbernumber))
+print("%3s %3d"%(secondmenbername,secondmenbernumber))
+print("總分為",firstmenbernumber+secondmenbernumber)

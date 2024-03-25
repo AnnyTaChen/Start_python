@@ -1,0 +1,5 @@
+def ctof(c):
+    f = c*1.8+32
+    return f
+inputc = float(input("請輸入溫度:"))
+print("華氏溫度為:%5.1f"%ctof(inputc))
